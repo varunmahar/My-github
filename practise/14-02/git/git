@@ -1,0 +1,43 @@
+   75  git clone https://github.com/varunmahar/My-github.git
+   76  ll
+   77  rm -rf gitfirst
+   78  sudo 
+   79  sudo rm -rf gitfirst
+   80  git clone https://github.com/varunmahar/My-github.git
+   81  sudo rm -rf My-github
+   82  git clone https://github.com/varunmahar/My-github.git
+   83  ll
+   84  ll -hart
+   85  cd My-github/
+   86  ll
+   87  git log
+   88  git branch "sub_branch"
+   89  git checkout "sub_branch"
+   90  git branch
+   91  ll
+   92  touch first_sub
+   93  git status
+   94  git add .
+   95  git status
+   96  git committ -m "sub file creats"
+   97  git commit -m "sub file creats"
+   98  git config --global user.email "varunmahar03@gmail.com"
+   99  git config --global user.name "varunmahar"
+  100  git commit -m "sub file creats"
+  101  git push origin sub_branch
+  102  git branch
+  103  git checkout master
+  104  git branch
+  105  git checkout sub_branch 
+  106  git branch -d "sub_branch"
+  107  git branch delete "sub_branch"
+  108  git branch
+  109  git branch -d sub_branch
+  110  git branch -D sub_branch
+  111  git branch -d origin/sub_branch
+  112  git branch --delete "sub_branch"
+  113  git branch --delete "sub_branch" -f
+  114  git checkout master
+  115  ll 
+  116  git push origin --delete "sub_branch"
+  117  history >> git

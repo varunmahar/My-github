@@ -1,0 +1,22 @@
+   56  ifconfig
+   57  ipng 192.168.43.193
+   58  ping 198.168.43.193
+   59  ssh 198.168.43.193
+   60  ssh nykaa@198.168.43.193
+   61  ssh root@198.168.43.193
+   62  systemctl ssh status
+   63  systemctl  status ssh
+   64  netstat -ntlp
+   65  systemctl  restart  ssh
+   66  systemctl  reload  ssh
+   67  systemctl  enable  ssh
+   68  ssh nykaa@198.168.43.193
+   69  apt-get update
+   70  apt-get install openssh-client
+   71  apt-get install openssh
+   72  ssh root@192.168.43.193
+   73  ssh nykaa@192.168.43.193
+   74  history
+   75  ssh nykaa@192.168.43.193
+   76  scp nykaa@198.168.43.193:/home/nykaa/Desktop/documents/Git-and-Git-hub 
+   77  scp nykaa@198.168.43.193:/home/nykaa/Desktop/documents/Git-and-Git-hub .

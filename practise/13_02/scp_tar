@@ -1,0 +1,11 @@
+tar -czfv documents.tar documents
+  tar -czfv documents1.tar documents
+tar -czvf documents1.tar documents
+scp authorized_key varun@192.168.43.200: .
+scp /home/varun/.ssh/authorized_key  .
+scp varun@192.168.43.200 /home/varun/.ssh/authorized_key 
+scp varun@192.168.43.200 /home/varun/.ssh/authorized_key .
+scp  /home/varun/.ssh/authorized_key varun@192.168.43.200
+scp  /home/varun/.ssh/authorized_key varun@192.168.43.200 .
+scp varun@192.168.43.200:/home/varun/.ssh/authorized_key .
+
