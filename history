@@ -1,0 +1,86 @@
+    1  touch hp &
+    2  ls
+    3  ls hp
+    4  vim hp
+    5  touch pp
+    6  mv hp pp &
+    7  ls pp
+    8  vim pp
+    9  rm -f hp pp
+   10  cat pp
+   11  fg %number
+   12  fg touch aa
+   13  job 
+   14  sleep 10000 &
+   15  jobs
+   16  fg %1
+   17  ps j
+   18  bg %1
+   19  (while true ; do echo -n "rock" >> ~/outfile; sleep 1; done)
+   20  tail -f ~/outfile
+   21  jobs
+   22  bg 
+   23  jobs
+   24  fg %number
+   25  ps j
+   26  ps aux
+   27  ps
+   28  fg %1834
+   29  fg %1
+   30  ps ;
+   31  ps aux -- sort =pcpu
+   32  ps aux --sort =pcpu
+   33  ps aux --sort=pcpu
+   34  ps -f -u varun
+   35  vim jb 
+   36  tail -f /jb
+   37  cat jb
+   38  pkil
+   39  kill 1
+   40  kill -l
+   41  kill 1
+   42  kill -l
+   43  ps tree
+   44  man ps tree
+   45  w
+   46  w -f
+   47  w
+   48  w -f
+   49  man w
+   50  exit
+   51  systemctl mask network
+   52  systemctl unmask network
+   53  sysconfig
+   54  ip -a
+   55  eth0
+   56  ip -v4
+   57  ipng 192.168.43.193
+   58  ping 198.168.43.193
+   59  ssh 198.168.43.193
+   60  ssh nykaa@198.168.43.193
+   61  ssh root@198.168.43.193
+   62  systemctl ssh status
+   63  systemctl  status ssh
+   64  netstat -ntlp
+   65  systemctl  restart  ssh
+   66  systemctl  reload  ssh
+   67  systemctl  enable  ssh
+   68  ssh nykaa@198.168.43.193
+   69  apt-get update
+   70  apt-get install openssh-client
+   71  apt-get install openssh
+   72  ssh root@192.168.43.193
+   73  ssh nykaa@192.168.43.193
+   74  history
+   75  ssh nykaa@192.168.43.193
+   76  scp nykaa@198.168.43.193:/home/nykaa/Desktop/documents/Git-and-Git-hub 
+   77  scp nykaa@198.168.43.193:/home/nykaa/Desktop/documents/Git-and-Git-hub .
+   78  ssh nykaa@192.168.43.193
+   79  ll
+   80  rm -rf Git-and-Git-hub
+   81  ll
+   82  scp nykaa@198.168.43.193:/home/nykaa/Desktop/documents/Git-and-Git-hub .
+   83  ll /var/run/sshd
+   84  ssh nykaa@192.168.43.193
+   85  history
+   86  history >> history 
