@@ -40,4 +40,4 @@
   114  git checkout master
   115  ll 
   116  git push origin --delete "sub_branch"
-  117  history >> git
+  
