@@ -1,38 +1,4 @@
-    1  touch hp &
-    2  ls
-    3  ls hp
-    4  vim hp
-    5  touch pp
-    6  mv hp pp &
-    7  ls pp
-    8  vim pp
-    9  rm -f hp pp
-   10  cat pp
-   11  fg %number
-   12  fg touch aa
-   13  job 
-   14  sleep 10000 &
-   15  jobs
-   16  fg %1
-   17  ps j
-   18  bg %1
-   19  (while true ; do echo -n "rock" >> ~/outfile; sleep 1; done)
-   20  tail -f ~/outfile
-   21  jobs
-   22  bg 
-   23  jobs
-   24  fg %number
-   25  ps j
-   26  ps aux
-   27  ps
-   28  fg %1834
-   29  fg %1
-   30  ps ;
-   31  ps aux -- sort =pcpu
-   32  ps aux --sort =pcpu
-   33  ps aux --sort=pcpu
-   34  ps -f -u varun
-   35  vim jb 
+ 
    36  tail -f /jb
    37  cat jb
    38  pkil
