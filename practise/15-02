@@ -1,0 +1,325 @@
+  315  sudo useradd -u 12375980 dj
+  316  sudo useradd -u 12375980 jd
+  317  sudo
+  318  sudo su
+  319  cat /etc/passwd
+  320  groupaad -g 7011600296 narok
+  321  sudo groupaad -g 7011600296 narok
+  322  groupadd -g 7011600296 narok
+  323  groupadd -g 70116 narok
+  324  sudo groupadd -g 70116 narok
+  325  cat /etc/group
+  326  tail -n8 /etc/group
+  327  usermod -G narok dj jd
+  328  tail -n8 /etc/group
+  329  usermod -G narok dj 
+  330  sudo usermod -G narok dj 
+  331  tail -n8 /etc/group
+  332  usermod -G narok jd 
+  333  sudo usermod -G narok jd 
+  334  tail -n8 /etc/group
+  335  tail -n5 /etc/passwd
+  336  tail -n8 /etc/group
+  337  tail -n5 /etc/passwd
+  338  gpasswd -g dj narok
+  339  sudo gpasswd -g dj narok
+  340  sudo gpasswd -d dj narok
+  341  tail -n8 /etc/group
+  342  useradd -c "narok kick u out" dj
+  343  useradd -c "narok kick u out" djd
+  344  sudo useradd -c "narok kick u out" djd
+  345  sudo userdel -r djd
+  346  sudo userdel -r narok kick u out
+  347  sudo userdel -rf narok kick u out
+  348  sudo userdel -rf dj
+  349  sudo userdel -rf jd
+  350  sudo userdel -rf Guest session
+  351  groupdel -r narok
+  352  sudo groupdel -r narok
+  353  sudo groupdel narok
+  354  tail -n8 /etc/group
+  355  change -l varun
+  356  chage -l varun
+  357  date -d
+  358  sudo date -d 
+  359  sudo su
+  360  ls
+  361  cd test_job/
+  362  touch file1....file7
+  363  ls
+  364  rm -r file1....file7
+  365  ls
+  366  touch -c rock
+  367  ls
+  368  touch file1 [10]
+  369  ls
+  370  cat file1
+  371  ls 
+  372  rm -r file1
+  373  ls
+  374  cat [10]
+  375  rm -r [10]
+  376  la
+  377  ls
+  378  touch file1 file2 >ls
+  379  ls
+  380  cat ls
+  381  rm -r ls
+  382  history > file1 file2
+  383  history > file1 
+  384  ls 
+  385  cat file1
+  386  ls
+  387  ls file1
+  388  ls-a
+  389  ls -l
+  390  chmod 777 file1
+  391  ls -l
+  392  chmod o+w file1
+  393  sl -l
+  394  ls -l
+  395  chmod o-w file1
+  396  ls -l
+  397  chmod u-wx,g-rx,o-w file1
+  398  ls -l
+  399  chmod u-wx,g-rx,o+w file1
+  400  ls -l
+  401  mkdir raat
+  402  ls -l
+  403  chmod  -R raat
+  404  mv file1 file2 raat
+  405  ls
+  406  ls -l
+  407  chmod  -R raat
+  408  chown  -R raat
+  409  ls -l
+  410  chown  -R 711 raat
+  411  ls -l
+  412  cd raat
+  413  ls -l
+  414  chown  -R 777 raat
+  415  chown  -R 755 raat
+  416  chown  -R 756 raat
+  417  chown  -R g+x raat
+  418  chmod -R g+x raat
+  419  chmod -R g+rwx raat
+  420  ls-l
+  421  ls -l 
+  422  cd
+  423  cd -
+  424  cd ..
+  425  ls -l 
+  426  sudo adduser gg
+  427  ls -l 
+  428  chown  gg raat
+  429  sudo chown gg raat
+  430  ls -l
+  431  sudo chmod -R raat
+  432  sudo chmod -R 755 raat
+  433  ls -l
+  434  cd raat
+  435  ls -l
+  436  vim file3 > file1
+  437  ls
+  438  cd test_job
+  439  ls
+  440  cd raat
+  441  ls -l
+  442  cat file3 >file1
+  443  cat file3 > file1
+  444  touch file3 >file1
+  445  sudo touch file3 >file1
+  446  ls -l
+  447  touch ii
+  448  groupadd bbg
+  449  sudo groupadd bbg
+  450  cd ..
+  451  ls -l
+  452  sudo chgrp  bbg raat
+  453  ls -l
+  454  sudo userdel gg
+  455  sudo groupdel bbg
+  456  tail -n5 /etc/passwd
+  457  sudo userdel guest session
+  458  sudo userdel -f  guest session
+  459  sudo userdel -rf  guest session
+  460  tail -n5 /etc/group
+  461  ls
+  462  sudo rm -rf test_job
+  463  ls
+  464  sudo su
+  465  ps
+  466  ps all
+  467  ps -u
+  468  ps ssh
+  469  ps -a ssh
+  470  mkdir bb
+  471  ls 
+  472  ls -l
+  473  touch bb
+  474  ls -i bb
+  475  ls -i
+  476  sl -l 
+  477  ls -l
+  478  touch file2
+  479  ls -l file2
+  480  umask
+  481  umask 0000
+  482  umask 
+  483  umask 0002
+  484  umask 
+  485  umask 0000
+  486  mkdir  varun
+  487  ls -l
+  488  touch ww
+  489  ls -l
+  490  rm -rf bb
+  491  rm -rf varun
+  492  rm -rf ww
+  493  rm -rf file2
+  494  ls
+  495  umask 0002
+  496  touch ww
+  497  ll
+  498  chomd +X ww
+  499  chmod +X ww
+  500  ll
+  501  chmod +x ww
+  502  ll
+  503  chmod +Xww
+  504  chmod +X ww
+  505  ll
+  506  chmod 644 ww
+  507  ll
+  508  chmod g+w ww
+  509  ll
+  510  chmod g+w,x ww
+  511  chmod g+x ww
+  512  ll
+  513  chmod 644 ww
+  514  ll
+  515  chmod 674 ww
+  516  ll
+  517  chomd 001 ww
+  518  chmod 001 ww
+  519  ll
+  520  sudo chown root ww
+  521  ll
+  522  sudo chown varun ww
+  523  ll
+  524  sudo chgrp root ww
+  525  ll
+  526  sudo chown -g varun ww
+  527  sudo chown  varun ww
+  528  ll
+  529  sudo chgrp varun ww
+  530  ll
+  531  sudo chown root:root ww
+  532  ll
+  533  sudo chown varun:root ww
+  534  ll
+  535  sudo chown :varun ww
+  536  ll
+  537  w
+  538  groupadd bb
+  539  sudo groupadd rock
+  540  tail -n5 /etc/group
+  541  sudo groupdel rock
+  542  tail -n5 /etc/group
+  543  sudo useradd papaboss
+  544  tail -n5 /etc/passwd
+  545  who
+  546  who papaboss
+  547  which papaboss
+  548  id 
+  549  id papaboss
+  550  sudo chgrp varun papaboss
+  551  sudo chgrp -G varun papaboss
+  552  sudo chown -G varun papaboss
+  553  sudo chmod -G varun papaboss
+  554  sudo chmod -aG varun papaboss
+  555  sudo chown  -aG varun papaboss
+  556  sudo chgrp -aG varun papaboss
+  557  sudo usermod varun papaboss
+  558  sudo usermod -a varun papaboss
+  559  sudo usermod -aG varun papaboss
+  560  id papaboss
+  561  sudo usermod -aG varun: papaboss
+  562  sudo usermod -a varun papaboss
+  563  sudo usermod -ag varun papaboss
+  564  sudo usermod -g varun papaboss
+  565  id papaboss
+  566  sudo
+  567  sudo su
+  568  vim file1
+  569  chmod +x file1
+  570  ./ file1
+  571  ./file1
+  572  sh file1
+  573  vim file1
+  574  ./file1
+  575  sudo ./file1
+  576  vim file1
+  577  sudo ./file1
+  578  vim file1
+  579  sudo ./file1
+  580  cat file1
+  581  vim file1
+  582  sudo ./file1
+  583  id poonam
+  584  id poonam2
+  585  vim file1
+  586  sh file1
+  587  sudo sh file1
+  588  id poonam
+  589  vim file1
+  590  sudo sh -x file1
+  591  vim file1
+  592  tail -n5 /etc/passwd
+  593  passwd poonam
+  594  passwd poonam2
+  595  sudo passwd poonam2
+  596  chage poonam
+  597  sudo chage poonam
+  598  sudo chage poonam2
+  599  sudo chage -l poonam2
+  600  sudo chahe --help
+  601  sudo chahe -help
+  602  sudo chahe -E poonam2
+  603  sudo chage -E poonam2
+  604  sudo chage -E 2020-02-19 poonam2
+  605  sudo chage -l poonam2
+  606  sudo chage -W 1 poonam2
+  607  sudo chage -l poonam2
+  608  sudo userdel poonam2
+  609  sudo userdel papaboss
+  610  sudo groupdel papaboss
+  611  sudo userdel papaboss
+  612  touch file1
+  613  ls
+  614  toucj file1
+  615  toch file1 2> ww
+  616  sudo toch file1 2> ww
+  617  sudo toch file1 2> file1
+  618  cat file1
+  619  sudo touch file > file1
+  620  cat file1
+  621  date >file1
+  622  cat file1
+  623  sudo toch file1 2&> file1
+  624  sudo date  2&> file1
+  625  cat file1
+  626  sudo date  &> file1
+  627  cat file1
+  628  sudo datae  &> file1
+  629  cat file1
+  630  sudo date  >> file1
+  631  cat file1
+  632  sudo w &>> file1
+  633  cat file1
+  634  ls
+  635  cd My-github
+  636  ls
+  637  cd practise
+  638  ll
+  639  history > 15-02
